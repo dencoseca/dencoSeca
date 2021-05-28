@@ -1,4 +1,3 @@
-```js
 class DencoSeca extends JuniorDeveloper {
   #scaredOf
   #headshots
@@ -65,4 +64,3 @@ const yourNewBestFriend = new DencoSeca({
   naughtiesBoyband: '🧑‍🦱',
   tastefulCableknit: '💁‍♂️',
 })
-```
