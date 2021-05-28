@@ -3,10 +3,14 @@ class DencoSeca extends JuniorDeveloper {
   #scaredOf
   #headshots
 
-  constructor(headshots) {
+  constructor() {
+    super()
     this.firstName = 'Leon'
     this.lastName = 'Brown'
-    this.#headshots = headshots
+    this.#headshots = {
+      naughtiesBoyband: '🧑‍🦱',
+      tastefulCableknit: '💁‍♂️',
+    }
     this.portfolio = 'https://www.leonbrown.dev'
     this.home = 'Sheffield, UK'
     this.#scaredOf =
@@ -53,7 +57,7 @@ class DencoSeca extends JuniorDeveloper {
         : this.#headshots.tastefulCableknit,
     }
 
-    axios({
+    super.shamelesslyPromote({
       method: 'post',
       url: `${companyUrl}/careers/apply?position=${jobTitle}`,
       data: application,
@@ -61,8 +65,5 @@ class DencoSeca extends JuniorDeveloper {
   }
 }
 
-const yourNewBestFriend = new DencoSeca({
-  naughtiesBoyband: '🧑‍🦱',
-  tastefulCableknit: '💁‍♂️',
-})
+const yourNewBestFriend = new DencoSeca()
 ```
