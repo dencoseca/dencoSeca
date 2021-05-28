@@ -8,7 +8,7 @@ class DencoSeca extends JuniorDeveloper {
     this.lastName = 'Brown'
     this.#headshots = headshots
     this.portfolio = 'https://www.leonbrown.dev'
-    this.home = 'Sheffield, Uk'
+    this.home = 'Sheffield, UK'
     this.#scaredOf =
       'Spiders that dissapear when you look away for like, ONE second.'
     this.skills = [
@@ -40,7 +40,7 @@ class DencoSeca extends JuniorDeveloper {
     return true
   }
 
-  applyForJob({ jobTitle, companyName, companyUrl }, headshots) {
+  applyForJob({ jobTitle, companyName, companyUrl }) {
     const useTooMuchHairGel = dictionary.some(
       word => word.replace('s', 'z') === companyName
     )
