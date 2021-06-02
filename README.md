@@ -15,6 +15,7 @@ class DencoSeca extends JuniorDeveloper {
     this.home = 'Sheffield, UK'
     this.#scaredOf =
       'Spiders that dissapear when you look away for like, ONE second.'
+    this.isAwareOfAGILEWorkingPrincipals = true
     this.skills = [
       'HTML',
       'CSS',
@@ -66,4 +67,6 @@ class DencoSeca extends JuniorDeveloper {
 }
 
 const yourNewBestFriend = new DencoSeca()
+
+yourNewBestFriend.isCurrentlyLearning = 'Jest'
 ```
