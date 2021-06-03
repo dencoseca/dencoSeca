@@ -68,5 +68,5 @@ class DencoSeca extends JuniorDeveloper {
 
 const yourNewBestFriend = new DencoSeca()
 
-yourNewBestFriend.isCurrentlyLearning = 'Jest'
+yourNewBestFriend.isCurrentlyLearning = ['Jest', 'Docker']
 ```
