@@ -21,11 +21,15 @@ class DencoSeca extends JuniorDeveloper {
       'CSS',
       'JS',
       'React',
+      'Gatsby',
+      'GraphQL',
       'SASS',
       'Express',
       'Node',
       'MongoDB',
       'Git',
+      'Bootstrap',
+      'Docker',
     ]
   }
 
@@ -68,5 +72,5 @@ class DencoSeca extends JuniorDeveloper {
 
 const yourNewBestFriend = new DencoSeca()
 
-yourNewBestFriend.isCurrentlyLearning = ['Jest', 'Docker', 'AWS Cloud Services']
+yourNewBestFriend.isCurrentlyLearning = ['Jest', 'AWS Cloud Services']
 ```
