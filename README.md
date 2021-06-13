@@ -19,7 +19,7 @@ class DencoSeca extends JuniorDeveloper {
     this.skills = [
       'HTML',
       'CSS',
-      'JS',
+      'JavaScript',
       'React',
       'Gatsby',
       'GraphQL',
