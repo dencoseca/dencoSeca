@@ -72,5 +72,5 @@ class DencoSeca extends JuniorDeveloper {
 
 const yourNewBestFriend = new DencoSeca()
 
-yourNewBestFriend.isCurrentlyLearning = ['Jest', 'AWS Cloud Services']
+yourNewBestFriend.isCurrentlyLearning = ['Jest', 'AWS Cloud Services', 'TypeScript']
 ```
