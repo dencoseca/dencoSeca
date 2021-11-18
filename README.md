@@ -1,5 +1,5 @@
 ```js
-class DencoSeca extends JuniorDeveloper {
+class DencoSeca extends Developer {
   #scaredOf
   #headshots
 
@@ -15,21 +15,20 @@ class DencoSeca extends JuniorDeveloper {
     this.home = 'Sheffield, UK'
     this.#scaredOf =
       'Spiders that dissapear when you look away for like, ONE second.'
-    this.isAwareOfAGILEWorkingPrincipals = true
+    this.isAGILE = true
     this.skills = [
       'HTML',
       'CSS',
       'JavaScript',
       'React',
-      'Gatsby',
       'GraphQL',
       'SASS',
       'Express',
       'Node',
-      'MongoDB',
       'Git',
-      'Bootstrap',
-      'Docker',
+      'Docker', 
+      'AWS',
+      'GitHub Actions',
     ]
   }
 
@@ -43,7 +42,7 @@ class DencoSeca extends JuniorDeveloper {
     matchedSkills.length >= 4
       ? console.log('Bills paid 💷')
       : console.log(
-          'Apply anyway and let them know that learning is your strongest skill 👍'
+          'Apply anyway and learn fast! 👍'
         )
 
     return true
@@ -72,5 +71,5 @@ class DencoSeca extends JuniorDeveloper {
 
 const yourNewBestFriend = new DencoSeca()
 
-yourNewBestFriend.isCurrentlyLearning = ['Terraform', 'AWS Cloud Services', 'TypeScript']
+yourNewBestFriend.isCurrentlyLearning = ['AWS', 'CDK', 'canvas']
 ```
