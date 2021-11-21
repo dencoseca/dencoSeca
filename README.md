@@ -26,7 +26,7 @@ class DencoSeca extends Developer {
       'Express',
       'Node',
       'Git',
-      'Docker', 
+      'Docker',
       'AWS',
       'GitHub Actions',
     ]
@@ -71,5 +71,5 @@ class DencoSeca extends Developer {
 
 const yourNewBestFriend = new DencoSeca()
 
-yourNewBestFriend.isCurrentlyLearning = ['AWS', 'CDK', 'canvas']
+yourNewBestFriend.isCurrentlyLearning = ['AWS', 'CDK', 'canvas', 'Jest']
 ```
