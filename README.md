@@ -12,7 +12,7 @@ class DencoSeca extends Developer {
       tastefulCableknit: '💁‍♂️',
     }
     this.portfolio = 'https://www.leonbrown.dev'
-    this.home = 'Sheffield, UK'
+    this.home = 'Edinburgh, UK'
     this.#scaredOf =
       'Spiders that dissapear when you look away for like, ONE second.'
     this.isAGILE = true
@@ -21,16 +21,19 @@ class DencoSeca extends Developer {
       'CSS',
       'JavaScript',
       'React',
-      'GraphQL',
+      'Redux',
       'SASS',
       'Express',
       'Node',
       'Git',
       'Docker',
-      'AWS',
       'Java',
-      'DevOps Architecture',
-      'CI/CD pipeline tooling',
+      'DevOps',
+      'Kubernetes',
+      'CI/CD', 
+      'Agile',
+      'PSM1 Scrum Master',
+      'AWS Cloud Practitioner',
     ]
   }
 
@@ -73,5 +76,5 @@ class DencoSeca extends Developer {
 
 const yourNewBestFriend = new DencoSeca()
 
-yourNewBestFriend.isCurrentlyLearning = ['AWS', 'Kubernetes']
+yourNewBestFriend.isCurrentlyLearning = ['AWS Solutions Architect', 'Go']
 ```
