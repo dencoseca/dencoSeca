@@ -31,7 +31,6 @@ class DencoSeca extends Developer {
       'DevOps',
       'Kubernetes',
       'CI/CD', 
-      'Agile',
       'PSM1 Scrum Master',
       'AWS Cloud Practitioner',
     ]
